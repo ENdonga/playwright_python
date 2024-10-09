@@ -33,3 +33,12 @@ def fibonacci_recursive(n):
 
 
 print(fibonacci_recursive(10))
+
+
+this_dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(this_dict["brand"])
+print(this_dict.get('brand'))
