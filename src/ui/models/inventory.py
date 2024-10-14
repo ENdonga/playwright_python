@@ -1,6 +1,6 @@
 from playwright.sync_api import Page
 
-from src.models.base import BasePage
+from src.ui.models.base import BasePage
 
 
 class InventoryPage(BasePage):

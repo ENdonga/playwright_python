@@ -1,7 +1,7 @@
 from playwright.sync_api import expect
 
-from src.models.inventory import InventoryPage
-from src.models.login import LoginPage
+from src.ui.models.inventory import InventoryPage
+from src.ui.models.login import LoginPage
 
 credentials = {'username': 'standard_user', 'locked_username': 'locked_out_user', 'password': 'secret_sauce'}
 

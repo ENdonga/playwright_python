@@ -1,7 +1,7 @@
 from playwright.sync_api import Page
 
-from src.models.base import BasePage
-from src.models.inventory import InventoryPage
+from src.ui.models.base import BasePage
+from src.ui.models.inventory import InventoryPage
 
 
 class CartPage(BasePage):
